@@ -5,7 +5,7 @@ data class RecipeDetails(
     val name: String,
     val images: List<String>,
     val lastUpdated: Int,
-    val description: String,
+    val description: String?,
     val instructions: String,
     val difficulty: String,
     val similar: List<RecipeBriefInfo>

@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Recipe-List</string>
+    <string name="no_connection_error">Could not reach server. Check your internet connection</string>
+    <string name="unexpected_error">"An unexpected error occurred"</string>
+    <string name="search_recipe">Search recipe</string>
+    <string name="sort">sort</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="ok">OK</string>
+    <string name="permission_required">Permission required</string>
+    <string name="permanently_declined">It seems you permanently declined the write external storage permission. You can go to the app settings to grant it.</string>
+    <string name="need_access">This app needs access to your device\'s storage to save files.</string>
+    <string name="description">Description</string>
+    <string name="difficulty_level">Difficulty level:</string>
+    <string name="images">Images</string>
+    <string name="cooking_instructions">Cooking instructions</string>
+    <string name="similar_recipes">Similar recipes</string>
+    <string name="download_started">Download started</string>
+    <string name="download_completed_successfully">Download completed successfully</string>
+    <string name="load_error">Load error</string>
+    <string name="add_file">add_file</string>
+    <string name="arrow_back">arrow_back</string>
+    <string name="image">image</string>
+    <string name="error_download_image">Failed to download image</string>
+    <string name="star">star</string>
+    <string name="empty_star">empty star</string>
+    <string name="error_icon">error_icon</string>
 </resources>

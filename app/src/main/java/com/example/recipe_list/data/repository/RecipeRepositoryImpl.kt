@@ -9,10 +9,10 @@ class RecipeRepositoryImpl(
     private val api: RecipeApi
 ) : RecipeRepository {
     override suspend fun getRecipes(): List<RecipeInfo> {
-        return api.getRecipes().map { it.toRecipeInfo() }
+        return api.getRecipes().recipes.map { it.toRecipeInfo() }
     }
 
     override suspend fun getRecipeDetails(uuid: String): RecipeDetails {
-        return api.getRecipeDetail(uuid).toRecipeDetails()
+        return api.getRecipeDetail(uuid).recipe.toRecipeDetails()
     }
 }
